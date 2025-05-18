@@ -1,3 +1,16 @@
 Projet Web:
 
-Detail et caractéristiques à saoir
+Detail et caractéristiques à savoir:
+
+Arborescence: 
+
+projet-web/
+│
+├── accueil.html         → page d'accueil
+├── a-propos.html        → page "À propos"
+├── engagement.html      → page "Engagement"
+├── quiz.html            → page "Quiz"
+├── style.css            → fichier de style CSS
+│
+└── assets/              → images
+    └── images/
