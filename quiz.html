@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz - ODD 13</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="rounded-header">
+    <h1>Quiz : Objectif Climat (ODD 13)</h1>
+    <nav>
+      <a href="accueil.html">Accueil</a>
+      <a href="actions.html">Actions</a>
+      <a href="engagement.html">Engagement</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="a_propos.html">À propos</a>
+    </nav>
+  </header>
+
+  <main class="quiz-container">
+    <section class="quiz-card">
+      <h2>Testez vos connaissances</h2>
+      <form id="quizForm">
+        <div class="question">
+          <p>1. Quelle est la principale cause du réchauffement climatique ?</p>
+          <label><input type="radio" name="q1" value="a" /> Pollution des océans</label>
+          <label><input type="radio" name="q1" value="b" /> Émissions de gaz à effet de serre</label>
+          <label><input type="radio" name="q1" value="c" /> Éruptions volcaniques</label>
+        </div>
+
+        <div class="question">
+          <p>2. Quel gaz contribue le plus à l’effet de serre ?</p>
+          <label><input type="radio" name="q2" value="a" /> Oxygène</label>
+          <label><input type="radio" name="q2" value="b" /> Dioxyde de carbone (CO₂)</label>
+          <label><input type="radio" name="q2" value="c" /> Hélium</label>
+        </div>
+
+        <div class="question">
+          <p>3. Quelle action réduit efficacement les émissions de CO₂ ?</p>
+          <label><input type="radio" name="q3" value="a" /> Prendre l’avion</label>
+          <label><input type="radio" name="q3" value="b" /> Utiliser les énergies fossiles</label>
+          <label><input type="radio" name="q3" value="c" /> Utiliser les transports en commun</label>
+        </div>
+
+        <button type="submit">Valider mes réponses</button>
+      </form>
+      <div id="quizResult"></div>
+    </section>
+  </main>
+
+  <footer class="rounded-footer">
+    <nav>
+      <a href="a_propos.html">À propos</a>
+    </nav>
+  </footer>
+</body>
+</html>

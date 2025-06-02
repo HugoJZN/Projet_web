@@ -1,0 +1,229 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0fdf4;
+  color: #1e3a1e;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.rounded-header, .rounded-footer {
+  background: linear-gradient(to right, #46b36e, #63c286);
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav a {
+  font-weight: bold;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.quiz-card {
+  background-color: white;
+  border: 3px solid #22c55e;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 128, 0, 0.1);
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.quiz-card h2 {
+  margin-bottom: 20px;
+  color: #166534;
+}
+
+.question {
+  margin-bottom: 25px;
+}
+
+.question p {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.question label {
+  display: block;
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.question label:hover {
+  background-color: #dcfce7;
+}
+
+
+button {
+  background-color: #22c55e;
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#quizResult {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.text-block {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card-section {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.info-card {
+  background: white;
+  border: 2px solid #bbf7d0;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 6px 15px rgba(22, 101, 52, 0.1);
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(22, 101, 52, 0.15);
+}
+
+.info-card h3 {
+  color: #166534;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.info-card p {
+  color: #444;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f0fdf4;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(22, 101, 52, 0.1);
+}
+
+.form-intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-intro h2 {
+  font-size: 1.8em;
+  color: #166534;
+  margin-bottom: 10px;
+}
+
+.form-intro p {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.styled-form .form-group {
+  margin-bottom: 20px;
+}
+
+.styled-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #166534;
+}
+
+.styled-form input,
+.styled-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #bbf7d0;
+  border-radius: 12px;
+  background: white;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+
+
+.submit-button {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 12px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.submit-button:hover {
+  background-color: #16a34a;
+}
+
+.confirmation-message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #15803d;
+}
+
+image {
+  align-items: center;
+}
